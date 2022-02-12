@@ -166,5 +166,5 @@ $ abaqus cae
 3. Running Abaqus Student Edition (SE) on Linux is not recommended or supported by DS SIMULIA.
 4. You are running and using Abaqus Student Edition (SE) on Linux only on your own responsibility.
 5. If any problems occur during installation or using Abaqus Student Edition (SE) on Linux do not report that to DS SIMULIA or DS Partners.
-6. Abaqus/CAE requires OpenGL acceleration for work. Not all graphics cards are supported. If the Abaqus/CAE doesn't start, hangs or crash the incompatible graphics card or driver can be the reason.
+6. Abaqus/CAE requires OpenGL acceleration for working. Not all graphics cards are supported. If the Abaqus/CAE doesn't start, hangs or crash the incompatible graphics card or driver can be the reason.
 7. The procedure of the Abaqus Student Edition (SE) installation and running on Linux with Wine doesn't modify in any way any copyright protected files of DS SIMULIA.
