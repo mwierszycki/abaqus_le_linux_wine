@@ -1,0 +1,19 @@
+SET CATAppBridge=NO
+SET CATDictionaryPath=%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64\code\dictionary;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\common\code\dictionary
+SET CATGraphicPath=%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64\resources\graphic;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\common\resources\graphic;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64\resources\graphic\icons;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\common\resources\graphic\icons;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64\resources\graphic\splashscreens;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\common\resources\graphic\splashscreens
+SET CATInst=%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst
+SET CATInstallPath=%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64
+SET CATMsgCatalogPath=%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64\resources\msgcatalog;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\common\resources\msgcatalog
+SET CATReffilesPath=%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\win_b64\reffiles;%cd%\SIMULIA_Abaqus_Student.Windows64\1\inst\common\reffiles
+SET DSYAdmInstCurrentMediaDir=%cd%\SIMULIA_Abaqus_Student.Windows64\1
+SET DSYAdmInstDebugAction=f
+SET DSYAdmInstDebugEnv=f
+SET DSYAdmInstDebugError=1
+SET DSYAdmInstDebugEverything=1
+SET DSYAdmInstDebugIndexes=f
+SET DSYAdmInstDebugSummary=f
+SET DSYIns_HasElevatedPrivileges=1
+SET DSYIns_IsInteractiveSession=1
+SET DSYSysIRManagementActivation=NO
+SET DSY_OS=win_b64
+%CATInstallPath%\code\bin\DSYInsAppliGUI.exe -CDpath %DSYAdmInstCurrentMediaDir%
