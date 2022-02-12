@@ -43,7 +43,8 @@ $ wget https://raw.githubusercontent.com/mwierszycki/abaqus_se_linux_wine/main/2
 ```
 $ LANG=en_US.1252 wine64 cmd.exe /c abq_se_install_wine.bat
 ```
-Follow the instructions of the installation program. The default installation and temporary directories are recommended. Please ignore the error of documentation installation (click Continue) and next one (click Ok). Ignore the message about installation failure (click Close)
+Follow the instructions of the installation program. The default installation `C:\SIMULIA` and temporary `C:\Temp` directories are recommended. Please ignore the error of documentation installation (click `Continue`) and next one (click `Ok`). Ignore the message about installation failure (click `Close`)
+
 5. Import registry keys:
 ```
 $ LANG=en_US.1252 wine64 cmd.exe /c regedit /c abq_se_install_wine.reg
@@ -52,7 +53,7 @@ $ LANG=en_US.1252 wine64 cmd.exe /c regedit /c abq_se_install_wine.reg
 ```
 $ alias abaqus='WINEDEBUG=-all LANG=en_US.1252 wine64 abaqus'
 ```
-To automatically set up alias files like .bashrc, .bash_profile, .profile, etc. can be used.
+To automatically set up alias please use files like .bashrc, .bash_profile, .profile, etc.
 
 ## Step 5. Verify the installation:
 ```
@@ -159,3 +160,11 @@ The error message `win32wnet error:  (1222, 'WNetOpenEnum', 'No network.')` come
 ```
 $ abaqus cae
 ```
+# Disclaimers
+1. "_The ABAQUS Student Edition (SE) is available free of charge to anyone wishing to get started with Abaqus._" (https://edu.3ds.com/en/software/abaqus-student-edition)
+2. The Abaqus Student Edition (SE) is officially available on Windows platform only.
+3. Running Abaqus Student Edition (SE) on Linux is not recommended or supported by DS SIMULIA.
+4. You are running and using Abaqus Student Edition (SE) on Linux only on your own responsibility.
+5. If any problems occur during installation or using Abaqus Student Edition (SE) on Linux do not report that to DS SIMULIA or DS Partners.
+6. Abaqus/CAE requires OpenGL acceleration for work. Not all graphics cards are supported. If the Abaqus/CAE doesn't start, hangs or crash the incompatible graphics card or driver can be the reason.
+7. The procedure of the Abaqus Student Edition (SE) installation and running on Linux with Wine doesn't modify in any way any copyright protected files of DS SIMULIA.
