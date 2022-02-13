@@ -10,7 +10,7 @@ Abaqus SE files (\*.cae and \*.odb) are compatible with the academic version but
 
 The Abaqus SE is officially available on Windows platform only but it can be run successfully on Linux using Wine.
 
-Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 10 but the Wine doesn't support MS IE 11. However, the Abaqus SE installer can be run in the alternative way to overcome it.
+Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 10 but the Wine doesn't support MS IE 10 (or later). However, the Abaqus SE installer can be run in the alternative way to overcome it.
 
 ## Step 0. Install Wine
 
