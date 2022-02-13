@@ -8,11 +8,11 @@ In the ABAQUS Student Edition the model size is limited up to 1000 nodes. The fe
 
 Abaqus SE files (\*.cae and \*.odb) are compatible with the academic version but not with commercial Abaqus releases.
 
-The Abaqus SE is officially available on Windows platform only but it can be run successfully on Linux using Wine. Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 11 but the Wine doesn't support MS IE 11. However, the Abaqus SE installer can be run in the alternative way to overcome it.
+The Abaqus SE is officially available on Windows platform only but it can be run successfully on Linux using Wine.
 
-The installation procedure on Linux with Wine skips the documentation. The full documentation of Abaqus is available on [help.3ds.com](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMULIA_Established_FrontmatterMap/sim-t-SIMULIA_EstablishedDocSearchOnline.htm?contextscope=all).
+Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 10 but the Wine doesn't support MS IE 11. However, the Abaqus SE installer can be run in the alternative way to overcome it.
 
-## Step 1. Install Wine
+## Step 0. Install Wine
 
 The newest stable version of Wine is recommenced. Abaqus Student Edition was tested with 0.5 and 0.7. To install Wine on your Linux machine please follow [instruction on WineHQ website](https://wiki.winehq.org/Wine_Installation_and_Configuration). Please find below an example of installation for Ubuntu 20.04:
 ```
@@ -21,21 +21,20 @@ $ sudo apt-key add winehq.key
 $ sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ focal main'
 $ sudo apt install --install-recommends winehq-stable
 ```
-## Step 2. Initialization of Wine environment
 Run the Wine configuration tool to initialize Wine environment for current user:
 ```
 $ winecfg
 ```
 When the Wine Configuration dialog appears, click Ok.
 
-## Step 3. Download Abaqus Student Edition (SE)
+## Step 1. Download Abaqus Student Edition (SE)
 Go to DS SIMULIA web site:     
    
 [https://edu.3ds.com/en/software/abaqus-student-edition](https://edu.3ds.com/en/software/abaqus-student-edition)
    
 and download Abaqus Student Edition on your disk.
 
-## Step 4. Installation 
+## Step 2. Installation 
 
 1. Unzip downloaded file:
 ```
@@ -66,7 +65,7 @@ $ alias abaqus='WINEDEBUG=-all LANG=en_US.1252 wine64 abaqus'
 ```
 To automatically set up alias please use files like .bashrc, .bash_profile, .profile, etc.
 
-## Step 5. Verify the installation:
+## Step 3. Verify the installation:
 ```
 $ abaqus info=ver
 
@@ -167,10 +166,12 @@ Verification procedure complete
 ```
 The error message `win32wnet error:  (1222, 'WNetOpenEnum', 'No network.')` comes from the Python for Win32 Extension module that exposes the Windows Networking API.  Since Abaqus doesn't require a network to run, that error can be ignored as well.
 
-## Step 6. Run Abaqus
+## Step 4. Run Abaqus
 ```
 $ abaqus cae
 ```
+The installation procedure on Linux with Wine skips the documentation. The full documentation of Abaqus is available on [help.3ds.com](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMULIA_Established_FrontmatterMap/sim-t-SIMULIA_EstablishedDocSearchOnline.htm?contextscope=all).
+
 # Disclaimers
 1. "_The ABAQUS Student Edition (SE) is available free of charge to anyone wishing to get started with Abaqus._" (https://edu.3ds.com/en/software/abaqus-student-edition)
 2. The Abaqus Student Edition (SE) is officially available on Windows platform only.
