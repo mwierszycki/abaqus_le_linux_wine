@@ -8,7 +8,7 @@ In the ABAQUS Student Edition the model size is limited up to 1000 nodes. The fe
 
 Abaqus SE files (\*.cae and \*.odb) are compatible with the academic version but not with commercial Abaqus releases.
 
-The Abaqus SE is officially available on Windows platform only but it can be run successfully on Linux using Wine. Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 11 installed on your computer. The Wine doesn't support MS IE 11. However, the Abaqus SE installer can be run in the alternative way to overcome it.
+The Abaqus SE is officially available on Windows platform only but it can be run successfully on Linux using Wine. Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 11 but the Wine doesn't support MS IE 11. However, the Abaqus SE installer can be run in the alternative way to overcome it.
 
 The installation procedure on Linux with Wine skips the documentation. The full documentation of Abaqus is available on [help.3ds.com](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMULIA_Established_FrontmatterMap/sim-t-SIMULIA_EstablishedDocSearchOnline.htm?contextscope=all).
 
