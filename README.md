@@ -1,5 +1,16 @@
 # Abaqus Student Edition (SE) on Linux with Wine
-Installation and running [Abaqus Student Edition](https://edu.3ds.com/en/software/abaqus-student-edition) (SE) on Linux using [Wine](https://www.winehq.org/).
+The [Abaqus Student Edition](https://edu.3ds.com/en/software/abaqus-student-edition) (SE) is available free of charge to anyone and can be downloaded from the [SIMULIA Community](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:39/wiki:_NXifU43Q7yHzTiCX9yEaw). The Abaqus SE package contains:
+- Abaqus/Standard,
+- Abaqus/Explicit,
+- Abaqus/CAE.
+
+In the ABAQUS Student Edition the model size is limited up to 1000 nodes. The features like user subroutines and C++ ODB API are not available. Parallel execution is not available as well.
+
+Abaqus SE files (\*.cae and \*.odb) are compatible with the academic version but not with commercial Abaqus releases.
+
+The Abaqus SE is officially available on Windows platform only but it can be run successfully on Linux using Wine. Please find below the procedure of Abaqus SE installation and running on Linux using [Wine](https://www.winehq.org/). The installer of the ABAQUS SE requires Microsoft Internet Explorer 11 installed on your computer. The Wine doesn't support MS IE 11. However, the Abaqus SE installer can be run in the alternative way to overcome it.
+
+The installation procedure on Linux with Wine skips the documentation. The full documentation of Abaqus is available on [help.3ds.com](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMULIA_Established_FrontmatterMap/sim-t-SIMULIA_EstablishedDocSearchOnline.htm?contextscope=all).
 
 ## Step 1. Install Wine
 
