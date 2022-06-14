@@ -1,4 +1,4 @@
-To install [Abaqus Learning Edition](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:39/wiki:_NXifU43Q7yHzTiCX9yEaw) (former Student Edition) 2022 under Wine the installer with text interface is used.
+To install [Abaqus Learning Edition](https://r1132100503382-eu1-3dswym.3dexperience.3ds.com/#community:39/wiki:_NXifU43Q7yHzTiCX9yEaw) 2022 (former Student Edition)  under Wine the installer with text interface is used.
 
 **Note: The JRE 11 must be installed under Wine before Abaqus LE installation is run!**
 
