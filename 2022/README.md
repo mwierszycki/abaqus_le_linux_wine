@@ -1,6 +1,6 @@
 ## Abaqus Learning Edtion 2022 installation
 
-Note: [Install and configure Wine](https://github.com/mwierszycki/abaqus_se_linux_wine/blob/main) before start to install Abaqus Studen Edtion 2021
+Note: [Install and configure Wine](https://github.com/mwierszycki/abaqus_se_linux_wine/blob/main) before start to install Abaqus Studen Edtion 2022
 
 1. The JRE 11 must be installed under Wine before Abaqus LE installation is run. Download [OpenJDK 11 (LTS) OpenJ9](https://github.com/AdoptOpenJDK/semeru11-binaries/releases/download/jdk-11.0.15%2B10_openj9-0.32.0/ibm-semeru-open-jre_x64_windows_11.0.15_10_openj9-0.32.0.zip) from AdoptOpenJDK Github (ZIP file) and extract it to `C:\jre` (`~/.wine/drive_c/jre/`):
 
