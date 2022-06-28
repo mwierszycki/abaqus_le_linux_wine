@@ -31,7 +31,7 @@ $ alias abaqus='WINEDEBUG=-all LANG=en_US.1252 wine64 abaqus'
 ```
 To automatically set up alias please use files like .bashrc, .bash_profile, .profile, etc.
 
-## Step 3. Verify the installation:
+7. Verify the installation:
 ```
 $ abaqus info=ver
 
@@ -132,8 +132,8 @@ Verification procedure complete
 ```
 The error message `win32wnet error:  (1222, 'WNetOpenEnum', 'No network.')` comes from the Python for Win32 Extension module that exposes the Windows Networking API.  Since Abaqus doesn't require a network to run that error can be ignored as well.
 
-## Step 4. Run Abaqus
+8. Run Abaqus
 ```
 $ abaqus cae
 ```
-The installation procedure on Linux with Wine skips the documentation. The full documentation of Abaqus is available on [help.3ds.com](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMULIA_Established_FrontmatterMap/sim-t-SIMULIA_EstablishedDocSearchOnline.htm?contextscope=all).
+Note: The installation procedure on Linux with Wine skips the documentation. The full documentation of Abaqus is available on [help.3ds.com](https://help.3ds.com/2021/English/DSSIMULIA_Established/SIMULIA_Established_FrontmatterMap/sim-t-SIMULIA_EstablishedDocSearchOnline.htm?contextscope=all).
