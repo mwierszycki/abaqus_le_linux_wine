@@ -30,7 +30,7 @@ When the Wine Configuration dialog appears, click Ok.
 ## Download Abaqus Learning Edition
 Go to DS SIMULIA web site:     
    
-[https://edu.3ds.com/en/software/abaqus-student-edition](https://edu.3ds.com/en/software/abaqus-learning-edition)
+[https://edu.3ds.com/en/software/abaqus-learning-edition](https://edu.3ds.com/en/software/abaqus-learning-edition)
    
 and download Abaqus Learning Edition on your disk.
 
