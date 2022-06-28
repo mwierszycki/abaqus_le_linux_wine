@@ -1,6 +1,6 @@
 ## Abaqus Student Edtion 2021 installation 
 
-Note: Install and configure Wine before start to install Abaqus Studen Edtion 2021
+Note: [Install and configure Wine](https://github.com/mwierszycki/abaqus_se_linux_wine/blob/main) before start to install Abaqus Studen Edtion 2021
 
 1. Unzip downloaded file:
 ```
