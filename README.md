@@ -34,6 +34,8 @@ Go to DS SIMULIA web site:
    
 and download Abaqus Learning Edition on your disk.
 
+## Install Abaqus Learning/Student Edtion
+
 Follow the installation guide for selected release:
 
 * [Abaqus 2021 Student Edition](https://github.com/mwierszycki/abaqus_se_linux_wine/tree/main/2021)
