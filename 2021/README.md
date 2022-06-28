@@ -1,4 +1,4 @@
-## Abaqus Studen Edtion 2021 installation 
+## Abaqus Student Edtion 2021 installation 
 
 Note: Install and configure Wine before start to install Abaqus Studen Edtion 2021
 
