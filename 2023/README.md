@@ -14,8 +14,8 @@ $ cd AM_SIM_Abaqus_Learning.Windows64/1/
 ```
 4. Download files required for installation (bat script and registry keys):
 ```
-$ wget https://raw.githubusercontent.com/mwierszycki/abaqus_se_linux_wine/main/2023/abq_le_install_wine.reg
-$ wget https://raw.githubusercontent.com/mwierszycki/abaqus_se_linux_wine/main/2023/abq_le_install_wine.bat
+$ wget https://raw.githubusercontent.com/mwierszycki/abaqus_le_linux_wine/main/2023/abq_le_install_wine.bat
+$ wget https://raw.githubusercontent.com/mwierszycki/abaqus_le_linux_wine/main/2023/abq_le_install_wine.bat
 ```
 5. Run installation process:
 ```
