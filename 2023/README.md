@@ -1,10 +1,10 @@
-## Abaqus Learning Edtion 2023 installation
+## Abaqus Learning Edition 2023 installation
 
-Note: [Install and configure Wine](https://github.com/mwierszycki/abaqus_se_linux_wine/blob/main) before start to install Abaqus Learning Edtion 2023
+Note: [Install and configure Wine](https://github.com/mwierszycki/abaqus_se_linux_wine/blob/main) before start to install Abaqus Learning Edition 2023
 
 1. The JRE 17 must be installed under Wine before Abaqus LE installation is run. Download [OpenJDK 17 (LTS) OpenJ9](https://github.com/ibmruntimes/semeru17-binaries/releases/download/jdk-17.0.7%2B7_openj9-0.38.0/ibm-semeru-open-jre_x64_windows_17.0.7_7_openj9-0.38.0.zip) from AdoptOpenJDK Github (ZIP file) and extract it to `C:\jre` (`~/.wine/drive_c/jre/`):
 
-2. Unzip the downloaded Abaqus Learning Edtion 2023 installation files:
+2. Unzip the downloaded Abaqus Learning Edition 2023 installation files:
 ```
 $ unzip Abaqus_2023.AM_SIM_Abaqus_Learning.Windows64.1-1.zip
 ```
