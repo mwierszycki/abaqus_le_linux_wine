@@ -130,6 +130,7 @@ Verification procedure complete
 
 ------------------------------------------------------------
 ```
+![](./abq_2023le-cae_verification.png)
 
 9. Run Abaqus
 ```
