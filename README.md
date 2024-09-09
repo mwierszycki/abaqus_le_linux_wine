@@ -41,6 +41,7 @@ Follow the installation guide for selected release:
 * [Abaqus 2021 Student Edition](https://github.com/mwierszycki/abaqus_se_linux_wine/tree/main/2021)
 * [Abaqus 2022 Learning Edition](https://github.com/mwierszycki/abaqus_se_linux_wine/tree/main/2022)
 * [Abaqus 2023 Learning Edition](https://github.com/mwierszycki/abaqus_se_linux_wine/tree/main/2023)
+* [Abaqus 2024 Learning Edition](https://github.com/mwierszycki/abaqus_se_linux_wine/tree/main/2024)
 
 # Disclaimers
 1. "_The ABAQUS Learning Edition is available free of charge to anyone wishing to get started with Abaqus_" (https://edu.3ds.com/en/software/abaqus-learning-edition)
